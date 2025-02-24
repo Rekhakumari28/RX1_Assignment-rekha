@@ -1,0 +1,7 @@
+const lablesInput = document.getElementById("lablesInput")
+const labelsDetailInput = document.getElementById("labelsDetailInput")
+const addTaskBtn = document.getElementById("addTaskBtn")
+const removeTaskId = document.getElementById("removeTaskId")
+const removeTaskBtn = document.getElementById("removeTaskBtn")
+const taskList = document.getElementById("taskList")
+const totalTasks = document.getElementById("totalTasks")
