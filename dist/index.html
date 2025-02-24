@@ -8,14 +8,19 @@
 <body>
     <div>
         <h2>Add Task</h2>
-        <input type="text" id="lablesInput" placeholder="Labels">
-        <input type="text" id="labelsDetailInput" placeholder="Labels detail">
-        <button>Add Task</button>
+        <form id="addTaskForm">
+        <input type="text" id="taskName" placeholder="Task">
+        <input type="text" id="taskDetail" placeholder="Task detail">
+        <button type="submit">Add Task</button>
+    </form>
     </div>
     <div>
         <h2>Remove Task</h2>
         <input type="text" id="removeTaskId" placeholder="Task ID">
-        <button>Remove Task</button>
+        <button id="removeTaskBtn">Remove Task</button>
     </div>
-<script src="/RX1_Assignment.59712999.js"></script></body>
+    <ul id="taskList"> </ul>
+    <p>Total Task: <span id="totalTasks">0</span></p>
+    <script src="/index.ac9dc4ba.js" defer=""></script>
+</body>
 </html>

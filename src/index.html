@@ -8,16 +8,19 @@
 <body>
     <div>
         <h2>Add Task</h2>
-        <input type="text" id="lablesInput" placeholder="Labels">
-        <input type="text" id="labelsDetailInput" placeholder="Labels detail">
-        <button id="addTaskBtn">Add Task</button>
+        <form id="addTaskForm">
+        <input type="text" id="taskName" placeholder="Task"/>
+        <input type="text" id="taskDetail" placeholder="Task detail"/>
+        <button type="submit">Add Task</button>
+    </form>
     </div>
     <div>
         <h2>Remove Task</h2>
         <input type="text" id="removeTaskId" placeholder="Task ID">
         <button id="removeTaskBtn">Remove Task</button>
     </div>
-    <div id="taskList"> </div>
-    <p>Total Task: <span id="totalTasks"></span></p>
+    <ul id="taskList"> </ul>
+    <p>Total Task: <span id="totalTasks">0</span></p>
+    <script type="module" src="./index.mjs"></script>
 </body>
 </html>
